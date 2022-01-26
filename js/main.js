@@ -57,7 +57,7 @@ $(document).ready(function() {
         navigation: false
     });
     //Animación cuenta regresiva
-    $('.cuenta-regresiva').countdown('2018/11/03 09:00:00',function(event){
+    $('.cuenta-regresiva').countdown('2022/11/03 09:00:00',function(event){
         $('#dias').html(event.strftime('%D'));
         $('#horas').html(event.strftime('%H'));
         $('#minutos').html(event.strftime('%M'));

@@ -395,7 +395,7 @@ blog
 }
 
 .block-heading {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 
@@ -476,6 +476,12 @@ Responsive styles
     }
     #social {
         padding-bottom: 70px;
+    }
+    .testimoniales{
+        margin-top: 12rem !important;
+    }
+    blockquote{
+        height: fit-content;
     }
 }
 /* ==========================================================================
@@ -598,6 +604,7 @@ div.mapa {
 }
 
 /*Cuenta regresiva*/
+
 div.cuenta-regresiva ul li{
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -605,8 +612,6 @@ div.cuenta-regresiva ul li{
     text-align: center;
     list-style: none;
     color: #1f57c1;
-
-
 }
 @media only screen and (min-width: 768px){
     div.cuenta-regresiva ul li{

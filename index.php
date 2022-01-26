@@ -133,6 +133,10 @@
 
         <div id="parallax">
             <div class="cuenta-regresiva contenedor">
+                <header class="block-heading cleafix">
+                    <!--<a href="eventos.php" class="btn btn-o btn-lg pull-right">Ver todos</a>-->
+                    <h1 class="text-center">Falta para nuestro próximo evento</h1>
+                </header>
                 <ul class="clearfix">
                     <li><p id="dias" class="numero"></p>Días</li>
                     <li><p id="horas" class="numero"></p>Horas</li>
